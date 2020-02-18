@@ -191,54 +191,36 @@ $mycss ='<style type="text/css">
 		</tr>
 		</table>
 
-		<table class="tbltree" width="100%">
-		<tr>
-		<td align="center" class="tdvd" valign="top">
-			<?php echo '<div class="dayname">'._ttfsp_lang_51.'</div>'.$tdate1; ?>
-		</td>
-		<td align="center" class="tdvd" valign="top">
-			<?php echo '<div class="dayname">'._ttfsp_lang_52.'</div>'.$tdate2; ?>
-		</td>
-		<td align="center" class="tdvd" valign="top">
-			<?php echo '<div class="dayname">'._ttfsp_lang_53.'</div>'.$tdate3; ?>
-		</td>
-		<td align="center" class="tdvd" valign="top">
-			<?php echo '<div class="dayname">'._ttfsp_lang_54.'</div>'.$tdate4; ?>
-		</td>
-		<td align="center" class="tdvd" valign="top">
-			<?php echo '<div class="dayname">'._ttfsp_lang_55.'</div>'.$tdate5; ?>
-		</td>
-		<td align="center" class="tdvd" valign="top">
-			<?php echo '<div class="dayname">'._ttfsp_lang_56.'</div>'.$tdate6; ?>
-		</td>
-		<td align="center" class="tdvd" valign="top">
-			<?php echo '<div class="dayname">'._ttfsp_lang_57.'</div>'.$tdate7; ?>
-		</td>
-		</tr>
-		<tr>
-		<td align="center" class="tdvt" valign="top">
-			<?php echo $ttime[0]; ?>
-		</td>
-		<td align="center" class="tdvt" valign="top">
-			<?php echo $ttime[1]; ?>
-		</td>
-		<td align="center" class="tdvt" valign="top">
-			<?php echo $ttime[2]; ?>
-		</td>
-		<td align="center" class="tdvt" valign="top">
-			<?php echo $ttime[3]; ?>
-		</td>
-		<td align="center" class="tdvt" valign="top">
-			<?php echo $ttime[4]; ?>
-		</td>
-		<td align="center" class="tdvt" valign="top">
-			<?php echo $ttime[5]; ?>
-		</td>
-		<td align="center" class="tdvt" valign="top">
-			<?php echo $ttime[6]; ?>
-		</td>
-		</tr>
-		</table>
+		<div id="tbltree" class="row seven-cols">
+			<div class="col-md-1">
+				<?php echo '<div class="dayname">' . _ttfsp_lang_51 . '</div>' . $tdate1; ?>
+				<?php echo $ttime[0]; ?>
+			</div>
+			<div class="col-md-1">
+				<?php echo '<div class="dayname">' . _ttfsp_lang_52 . '</div>' . $tdate2; ?>
+				<?php echo $ttime[1]; ?>
+			</div>
+			<div class="col-md-1">
+				<?php echo '<div class="dayname">' . _ttfsp_lang_53 . '</div>' . $tdate3; ?>
+				<?php echo $ttime[2]; ?>
+			</div>
+			<div class="col-md-1">
+				<?php echo '<div class="dayname">' . _ttfsp_lang_54 . '</div>' . $tdate4; ?>
+				<?php echo $ttime[3]; ?>
+			</div>
+			<div class="col-md-1">
+				<?php echo '<div class="dayname">' . _ttfsp_lang_55 . '</div>' . $tdate5; ?>
+				<?php echo $ttime[4]; ?>
+			</div>
+			<div class="col-md-1">
+				<?php echo '<div class="dayname">' . _ttfsp_lang_56 . '</div>' . $tdate6; ?>
+				<?php echo $ttime[5]; ?>
+			</div>
+			<div class="col-md-1">
+				<?php echo '<div class="dayname">' . _ttfsp_lang_57 . '</div>' . $tdate7; ?>
+				<?php echo $ttime[6]; ?>
+			</div>
+		</div>
 		</div>
 	<?php
 	}
